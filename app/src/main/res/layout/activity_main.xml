@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6B17E"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fragmentFirst"
+        android:name="com.example.interfragmentcomm.FragmentFirst"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="127dp"
+        android:layout_marginBottom="276dp" />
+
+    <fragment
+        android:id="@+id/fragmentSecond"
+        android:name="com.example.interfragmentcomm.FragmentSecond"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="356dp"
+        android:layout_marginBottom="44dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="515dp"
+        android:background="#009688"
+        android:text="Click the button to send data from First Fragment to Second Fragment"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
