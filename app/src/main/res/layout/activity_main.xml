@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B6B17E"
     tools:context=".MainActivity">
 
     <fragment
@@ -33,7 +32,7 @@
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="515dp"
-        android:background="#009688"
+        android:background="#98D1CC"
         android:text="Click the button to send data from First Fragment to Second Fragment"
         android:textSize="20dp" />
 

@@ -12,9 +12,9 @@ import android.widget.Button;
 
 public class FragmentFirst extends Fragment implements View.OnClickListener{
 
-    Button button;
-    int counter=0;
-    Communicator comm;
+    private Button button;
+    private int counter=0;
+    private Communicator comm;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class FragmentFirst extends Fragment implements View.OnClickListener{
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        comm = (Communicator) getActivity();        //to get reference of main activity
+        comm = (Communicator) getActivity();          //to get reference of main activity
         button = (Button) getActivity().findViewById(R.id.send);
         button.setOnClickListener(this);
     }
